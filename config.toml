@@ -15,6 +15,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
 
+disableKinds = ["RSS"]
+
 [author]
   name = "MHBCO"
 
@@ -57,17 +59,17 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  #[[params.social]]
-  #  name = "twitter"
-  #  url = "https://twitter.com/"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/mhbcomusic"
 
-  #[[params.social]]
-  #  name = "instagram"
-  #  url = "https://instagram.com/"
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/mhbco/"
 
-  #[[params.social]]
-  #  name = "github"
-  #  url = "https://github.com/"
+  [[params.social]]
+    name = "email"
+    url = "mailto:%68%65%6C%6C%6F%40%69tsoc%6Bs%2E%64%65"
 
 [menu]
 
@@ -76,8 +78,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   #  url = "posts/"
   #  weight = 10
 
-  #[[menu.main]]
-  #  name = "About"
-  #  url = "about-hugo/"
-  #  weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
 
